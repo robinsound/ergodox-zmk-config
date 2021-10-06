@@ -25,7 +25,7 @@
                 layer_1 {
                         bindings = <
     &bootloader
-    &kp SQT    &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT     &kp RBKT      &none      &none      &none
+    &kp GRAVE  &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT     &kp RBKT      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
