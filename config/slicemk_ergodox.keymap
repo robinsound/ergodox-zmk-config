@@ -11,7 +11,7 @@
                 label = "GRAVE_ESCAPE";
                 #binding-cells = <0>;
                 bindings = <&kp ESC>, <&kp GRAVE>;
-                mods = <(MOD_LSFT||MOD_RSFT)>;
+                mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
                 };
 
                 ntilde: n_tilde {
@@ -19,7 +19,7 @@
                 label = "N_TILDE";
                 #binding-cells = <0>;
                 bindings = <&kp N>, <&kp TILDE>;
-                mods = <(LALT|RALT)>;
+                mods = <(MOD_LALT|MOD_RALT)>;
                 };
 
                 bdel: backspace_del {
