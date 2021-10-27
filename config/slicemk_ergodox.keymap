@@ -4,20 +4,47 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+
+        behaviors {
+                gresc: grave_escape {
+                compatible = "zmk,behavior-mod-morph";
+                label = "GRAVE_ESCAPE";
+                #binding-cells = <0>;
+                bindings = <&kp ESC>, <&kp GRAVE>;
+                mods = <(MOD_LSFT||MOD_RSFT)>;
+                };
+
+                ntilde: n_tilde {
+                compatible = "zmk,behavior-mod-morph";
+                label = "N_TILDE";
+                #binding-cells = <0>;
+                bindings = <&kp N>, <&kp TILDE>;
+                mods = <(LALT|RALT)>;
+                };
+
+                bdel: backspace_del {
+                compatible = "zmk,behavior-mod-morph";
+                label = "BACKSPACE_DEL";
+                #binding-cells = <0>;
+                bindings = <&kp BACKSPACE>, <&kp DEL>;
+                mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+                };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp ESC        &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6            &kp NUM_7    &kp NUM_8  &kp NUM_9          &kp NUM_0  &kp MINUS  &kp EQUAL  &kp BACKSPACE
+    &gresc        &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6            &kp NUM_7    &kp NUM_8  &kp NUM_9          &kp NUM_0  &kp MINUS  &kp EQUAL  &bdel
     &kp TAB        &kp Q      &kp W      &kp E      &kp R      &kp T      &kp C_BRI_DN         &kp C_BRI_UP &kp Y      &kp U              &kp I      &kp O      &kp P      &kp BSLH
     &kp CAPS       &kp A      &kp S      &kp D      &kp F      &kp G                                        &kp H      &kp J              &kp K      &kp L      &kp SCLN   &kp ENTER
-    &kp LEFT_SHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp K_PLAY_PAUSE     &kp C_MUTE   &kp N      &kp M              &kp CMMA   &kp DOT    &kp UP     &kp RSHFT
+    &kp LEFT_SHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp K_PLAY_PAUSE     &kp C_MUTE   &ntilde      &kp M              &kp CMMA   &kp DOT    &kp UP     &kp RSHFT
     &to 0          &to 1      &kp LCTRL  &kp LALT   &kp LGUI                                                           &kp SQT            &kp SLASH  &kp LEFT   &kp DOWN   &kp RIGHT
-                                                                      &kp C_PREV  &kp C_NEXT   &kp M_VOLU  &kp M_VOLD
+                                                                      &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU  
                                                                                   &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                     &kp RALT   &kp SPC
+                                                              &kp SPC    &kp INS                               &kp RALT   &kp SPC
                                                                                   &lt 1 END       &lt 1 PG_DN
                         >;
                 };
@@ -25,15 +52,14 @@
                 layer_1 {
                         bindings = <
     &bootloader
-    &kp GRAVE  &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT     &kp RBKT      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
+    &kp TILDE  &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT     &kp RBKT      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &to 0      &to 2      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLU  &kp M_VOLD
+    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &kp UP      &none
+    &to 0      &to 2      &none      &none      &none                                                  &none      &none      &kp LEFT   &kp DOWN   &kp RIGHT
+                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
                                                                                   &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                     &kp RALT   &kp SPC
+                                                              &kp SPC    &kp INS                               &kp RALT   &kp SPC
                                                                                   &lt 1 END       &lt 1 PG_DN
                         >;
                 };
@@ -41,12 +67,12 @@
                 layer_2 {
                         bindings = <
     &bootloader
-    &kp TILDE  &none      &none      &none      &none      &none      &none      &none      &none      &kp LBRC     &kp RBRC      &none      &none      &none
+    &to 0      &none      &none      &none      &none      &none      &none      &none      &none      &kp LBRC     &kp RBRC      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &to 0      &to 3      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLU  &kp M_VOLD
+                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
                                                                                   &lt 2 HOME      &lt 2 PG_UP
                                                               &kp SPC    &kp INS                     &kp RALT   &kp SPC
                                                                                   &lt 1 END       &lt 1 PG_DN
@@ -62,7 +88,7 @@
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
     &to 0      &to 1      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLU  &kp M_VOLD
+                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
                                                                                   &lt 2 HOME      &lt 2 PG_UP
                                                               &kp SPC    &kp INS                     &kp RALT   &kp SPC
                                                                                   &lt 1 END       &lt 1 PG_DN
