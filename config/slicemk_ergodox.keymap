@@ -6,11 +6,11 @@
 / {
 
         behaviors {
-                gresc: grave_escape {
+                escaps: esc_caps {
                 compatible = "zmk,behavior-mod-morph";
-                label = "GRAVE_ESCAPE";
+                label = "ESC_CAPS";
                 #binding-cells = <0>;
-                bindings = <&kp ESC>, <&kp GRAVE>;
+                bindings = <&kp ESC>, <&kp CAPS>;
                 mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
                 };
 
@@ -37,11 +37,11 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &gresc        &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6            &kp NUM_7    &kp NUM_8  &kp NUM_9          &kp NUM_0  &kp MINUS  &kp EQUAL  &bdel
+    &kp GRAVE      &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6            &kp NUM_7    &kp NUM_8  &kp NUM_9          &kp NUM_0  &kp MINUS  &kp EQUAL  &bdel
     &kp TAB        &kp Q      &kp W      &kp E      &kp R      &kp T      &kp C_BRI_DN         &kp C_BRI_UP &kp Y      &kp U              &kp I      &kp O      &kp P      &kp BSLH
-    &kp CAPS       &kp A      &kp S      &kp D      &kp F      &kp G                                        &kp H      &kp J              &kp K      &kp L      &kp SCLN   &kp ENTER
-    &kp LEFT_SHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp K_PLAY_PAUSE     &kp C_MUTE   &ntilde      &kp M              &kp CMMA   &kp DOT    &kp UP     &kp RSHFT
-    &to 0          &to 1      &kp LCTRL  &kp LALT   &kp LGUI                                                           &kp SQT            &kp SLASH  &kp LEFT   &kp DOWN   &kp RIGHT
+    &escaps        &kp A      &kp S      &kp D      &kp F      &kp G                                        &kp H      &kp J              &kp K      &kp L      &kp SCLN   &kp ENTER
+    &kp LEFT_SHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp K_PLAY_PAUSE     &kp C_MUTE   &ntilde    &kp M              &kp CMMA   &kp DOT    &kp SLASH  &kp RSHFT
+    &mo 1          &to 1      &kp LCTRL  &kp LALT   &kp LGUI                                                           &kp RGUI           &kp RALT   &kp RCTRL  &kp SQT    &to 0
                                                                       &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU  
                                                                                   &lt 2 HOME      &lt 2 PG_UP
                                                               &kp SPC    &kp INS                               &kp RALT   &kp SPC
@@ -57,7 +57,7 @@
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &kp UP      &none
     &to 0      &to 2      &none      &none      &none                                                  &none      &none      &kp LEFT   &kp DOWN   &kp RIGHT
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
+                                                            &kp C_PREV  &kp C_NEXT            &kp M_VOLD &kp M_VOLU 
                                                                                   &lt 2 HOME      &lt 2 PG_UP
                                                               &kp SPC    &kp INS                               &kp RALT   &kp SPC
                                                                                   &lt 1 END       &lt 1 PG_DN
