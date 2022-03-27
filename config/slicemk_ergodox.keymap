@@ -4,95 +4,52 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-
-        behaviors {
-                escaps: esc_caps {
-                compatible = "zmk,behavior-mod-morph";
-                label = "ESC_CAPS";
-                #binding-cells = <0>;
-                bindings = <&kp ESC>, <&kp CAPS>;
-                mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-                };
-
-                ntilde: n_tilde {
-                compatible = "zmk,behavior-mod-morph";
-                label = "N_TILDE";
-                #binding-cells = <0>;
-                bindings = <&kp N>, <&kp TILDE>;
-                mods = <(MOD_LALT|MOD_RALT)>;
-                };
-
-                bdel: backspace_del {
-                compatible = "zmk,behavior-mod-morph";
-                label = "BACKSPACE_DEL";
-                #binding-cells = <0>;
-                bindings = <&kp BACKSPACE>, <&kp DEL>;
-                mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-                };
-        };
-
         keymap {
                 compatible = "zmk,keymap";
 
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp GRAVE      &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6            &kp NUM_7    &kp NUM_8  &kp NUM_9          &kp NUM_0  &kp MINUS  &kp EQUAL  &bdel
-    &kp TAB        &kp Q      &kp W      &kp E      &kp R      &kp T      &kp C_BRI_DN         &kp C_BRI_UP &kp Y      &kp U              &kp I      &kp O      &kp P      &kp BSLH
-    &escaps        &kp A      &kp S      &kp D      &kp F      &kp G                                        &kp H      &kp J              &kp K      &kp L      &kp SCLN   &kp ENTER
-    &kp LEFT_SHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp C_PP     &kp C_MUTE   &ntilde    &kp M              &kp CMMA   &kp DOT    &kp SLASH  &kp RSHFT
-    &mo 1          &to 1      &kp LCTRL  &kp LALT   &kp LGUI                                                           &kp RGUI           &kp RALT   &kp RCTRL  &kp SQT    &to 0
-                                                                      &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU  
-                                                                                  &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                               &kp RALT   &kp SPC
-                                                                                  &lt 1 END       &lt 1 PG_DN
-                        >;
-                };
-
-                layer_1 {
-                        bindings = <
-    &bootloader
-    &kp TILDE  &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT     &kp RBKT      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &kp UP      &none
-    &to 0      &to 2      &none      &none      &none                                                  &none      &none      &kp LEFT   &kp DOWN   &kp RIGHT
-                                                            &kp C_PREV  &kp C_NEXT            &kp M_VOLD &kp M_VOLU 
-                                                                                  &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                               &kp RALT   &kp SPC
-                                                                                  &lt 1 END       &lt 1 PG_DN
-                        >;
-                };
-
-                layer_2 {
-                        bindings = <
-    &bootloader
-    &to 0      &none      &none      &none      &none      &none      &none      &none      &none      &kp LBRC     &kp RBRC      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &to 0      &to 3      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
-                                                                                  &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                     &kp RALT   &kp SPC
-                                                                                  &lt 1 END       &lt 1 PG_DN
-                        >;
-                };
-
-                
-                layer_3 {
-                        bindings = <
-    &bootloader
-    &none      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6    &kp F7      &kp F8     &kp F9     &kp F10    &kp F11    &kp F12    &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &to 0      &to 1      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                            &kp C_PREV  &kp C_NEXT   &kp M_VOLD &kp M_VOLU 
-                                                                                  &lt 2 HOME      &lt 2 PG_UP
-                                                              &kp SPC    &kp INS                     &kp RALT   &kp SPC
-                                                                                  &lt 1 END       &lt 1 PG_DN
-                        >;
+    &kp ESC    &kp GRAV   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5        &kp NUM_6   &kp NUM_7         &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp MINUS      &bdel
+    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp C_PP         &kp EQUAL   &kp Y             &kp U      &kp I      &kp O      &kp P          &kp BSLH
+    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H             &kp J      &kp K      &kp L      &kp SCLN       &kp BKSP
+    &kp LEFT_SHIFT &kp Z  &kp X      &kp C      &kp V      &kp B      &kp C_NEXT       &kp SLASH   &kp N             &kp M      &kp CMMA   &kp DOT    &kp UP         &kp RSHFT
+    &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp LEFT   &kp DOWN       &kp RIGHT
+                                                           &kp LBRC   &kp RBRC         &kp M_MUTE  &kp SQT
+                                                                      &kp HOME         &kp PGDN 
+                                                &kp SPC    &kp INS                                 &kp RCTL          &kp SPC
+                                                                      &kp END          &mo PGDN 
+                        >; 
+                }; 
+ 
+                layer_1 { 
+                        bindings = < 
+    &bootloader 
+    &none      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6           &kp F7      &kp F8            &kp F9     &kp F10    &kp F11    &kp F12        &kp DEL
+    &none      &none      &none      &none      &none      &none      &none            &none       &none             &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp PLUS       &none
+    &none      &none      &none      &none      &none      &none                                   &none             &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp MINUS      &none
+    &none      &none      &none      &none      &none      &none      &kp C_PREV       &none       &kp NON_US_HASH   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp SLASH      &none
+    &none      &none      &none      &none      &none                                                                &kp NUM_0  &kp DOT    &none      &none          &none
+                                                           &none      &none            &kp M_VOLD  &kp M_VOLU
+                                                                      &none            &none 
+                                                &none      &none                                   &none             &none
+                                                                      &none            &none 
+                        >;       
+                };       
+       
+                layer_2 {       
+                        bindings = <       
+    &bootloader       
+    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
+    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
+    &none      &none      &none      &none      &none      &none                                   &none      &none      &none      &none      &none         &none
+    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none            &none       &none      &none      &none      &none      &kp QUESTION  &none
+    &none      &none      &none      &none      &none                                                         &none      &none      &none      &none         &none
+                                                           &none      &none            &kp F14     &kp F15
+                                                                      &none            &none 
+                                                &none      &none                                   &none      &none
+                                                                      &none            &none
+                        >;      
                 };
 
         };
