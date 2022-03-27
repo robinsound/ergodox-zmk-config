@@ -15,7 +15,7 @@
     &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H             &kp J      &kp K      &kp L      &kp SCLN       &kp ENTER
     &kp LEFT_SHIFT &kp Z  &kp X      &kp C      &kp V      &kp B      &kp C_NEXT       &kp SLASH   &kp N             &kp M      &kp CMMA   &kp DOT    &kp UP         &kp RSHFT
     &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp LEFT   &kp DOWN       &kp RIGHT
-                                                           &kp LBRC   &kp RBRC         &kp M_MUTE  &kp SQT
+                                                           &kp LBKT   &kp RBKT         &kp M_MUTE  &kp SQT
                                                                       &kp HOME         &kp PGDN 
                                                 &kp SPC    &kp INS                                 &kp RCTL          &kp SPC
                                                                       &kp END          &mo PGDN 
@@ -28,7 +28,7 @@
     &none      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6           &kp F7      &kp F8            &kp F9     &kp F10    &kp F11    &kp F12        &kp DEL
     &none      &none      &none      &none      &none      &none      &none            &none       &none             &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp PLUS       &none
     &none      &none      &none      &none      &none      &none                                   &none             &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp MINUS      &none
-    &none      &none      &none      &none      &none      &none      &kp C_PREV       &none       &kp NON_US_HASH   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp SLASH      &none
+    &none      &none      &none      &none      &none      &none      &kp C_PREV       &none       &kp NON_US_HASH   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp FSLH       &kp RSHFT
     &none      &none      &none      &none      &none                                                                &kp NUM_0  &kp DOT    &none      &none          &none
                                                            &none      &none            &kp M_VOLD  &kp M_VOLU
                                                                       &none            &none 
@@ -43,7 +43,7 @@
     &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
     &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
     &none      &none      &none      &none      &none      &none                                   &none      &none      &none      &none      &none         &none
-    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none            &none       &none      &none      &none      &none      &kp QUESTION  &none
+    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &kp QUESTION  &kp RSHFT
     &none      &none      &none      &none      &none                                                         &none      &none      &none      &none         &none
                                                            &none      &none            &kp F14     &kp F15
                                                                       &none            &none 
