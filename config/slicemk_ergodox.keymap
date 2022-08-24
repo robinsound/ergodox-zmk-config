@@ -30,7 +30,7 @@
     &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp SQT    &kp LBKT       &kp RBKT
                                                            &kp M_VOLD &kp M_VOLU       &kp M_MUTE  &kp C_PREV
                                                                       &kp HOME         &kp PGDN 
-                                                &kp SPC    &kp INS                                 &kp LA(LS(LG(LC)))      &kp SPC
+                                                &kp SPC    &kp INS                                 &kp RCTRL      &kp SPC
                                                                       &kp END          &mo PGDN 
                         >; 
                 }; 
