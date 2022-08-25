@@ -26,7 +26,7 @@
     &kp GRAV   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6        &kp NUM_7   &kp NUM_8         &kp NUM_9  &kp NUM_0  &kp MINUS  &kp EQUAL      &kp BACKSPACE
     &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp CAPSLOCK     &kp C_PP    &kp Y             &kp U      &kp I      &kp O      &kp P          &kp BSLH
     &gresc     &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H             &kp J      &kp K      &kp L      &kp SCLN       &kp ENTER
-    &kp LEFT_SHIFT &kp Z  &kp X      &kp C      &kp V      &kp B      &kp C_NEXT       &kp K_NEXT  &kp N             &kp M      &kp CMMA   &kp DOT    &upq           &kp RSHFT
+    &kp LEFT_SHIFT &kp Z  &kp X      &kp C      &kp V      &kp B      &kp C_NEXT       &kp K_NEXT  &kp N             &kp M      &kp CMMA   &kp DOT    &kp SLASH      &kp RSHFT
     &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp SQT    &kp LBKT       &kp RBKT
                                                            &kp M_VOLD &kp M_VOLU       &kp M_MUTE  &kp C_PREV
                                                                       &kp HOME         &kp PGDN 
