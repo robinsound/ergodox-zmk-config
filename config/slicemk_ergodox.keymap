@@ -1,71 +1,53 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#define LHYP LS(LC(LA(LGUI)))
-#define LHYPER(key) LS(LC(LA(LG(key))))
-
-/ {
-// CAPSLOCK
-        behaviors {
-
-        upq: up_question {
-            compatible = "zmk,behavior-mod-morph";
-            label = "UP_QUESTION";
-            #binding-cells = <0>;
-            bindings = <&kp UP>, <&kp QUESTION>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-                };
-        };
-
-        keymap {
-                compatible = "zmk,keymap";
-
-                layer_0 {
-                        bindings = <
-
-    &bootloader
-    &kp GRAV   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6        &kp NUM_7   &kp NUM_8         &kp NUM_9  &kp NUM_0  &kp MINUS  &kp EQUAL      &kp BACKSPACE
-    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp C_PP         &kp C_PP    &kp Y             &kp U      &kp I      &kp O      &kp P          &kp BSLH
-    &gresc     &kp A      &kp S      &kp D      &kp F      &kp G                                   &kp H             &kp J      &kp K      &kp L      &kp SCLN       &kp ENTER
-    &kp LEFT_SHIFT &kp Z  &kp X      &kp C      &kp V      &kp B      &kp C_NEXT       &kp K_NEXT  &kp N             &kp M      &kp CMMA   &kp DOT    &kp SLASH      &kp RSHFT
-    &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp SQT    &kp LBKT       &kp RBKT
-                                                           &kp C_BRI_DN &kp C_BRI_UP   &kp M_MUTE  &kp C_PREV
-                                                                      &kp HOME         &kp PGUP 
-                                                &kp SPC    &kp INS                                 &kp RCTRL      &kp SPC
-                                                                      &kp END          &mo PGDN 
-                        >; 
-                }; 
+ #include <behaviors.dtsi>
+ #include <dt-bindings/zmk/bt.h>
+ #include <dt-bindings/zmk/keys.h>
+ #include <dt-bindings/zmk/outputs.h>
  
-                layer_1 { 
-                        bindings = < 
-    &bootloader 
-    &none      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6           &kp F7      &kp F8            &kp F9     &kp F10    &kp F11    &kp F12        &kp DEL
-    &none      &none      &none      &none      &none      &none      &none            &none       &none             &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp PLUS       &none
-    &kp CAPS   &none      &none      &none      &none      &none                                   &none             &kp NUM_4  &kp NUM_5  &kp NUM_6  &kp MINUS      &none
-    &none      &none      &none      &none      &none      &none      &none            &none       &none             &kp NUM_1  &kp NUM_2  &kp DOT    &upq           &kp RSHFT
-    &mo 1      &mo 2      &kp LCTL   &kp LALT   &kp LGUI                                                             &kp RGUI   &kp RALT   &kp LEFT   &kp DOWN       &kp RIGHT
-                                                           &none      &none            &kp M_VOLD  &kp M_VOLU
-                                                                      &none            &none 
-                                                &none      &none                                   &kp RCTRL             &none
-                                                                      &none            &none 
-                        >;       
-                };       
-       
-                layer_2 {       
-                        bindings = <       
-    &bootloader       
-    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
-    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &none         &none
-    &none      &none      &none      &none      &none      &none                                   &none      &none      &none      &none      &none         &none
-    &none      &none      &none      &none      &none      &none      &none            &none       &none      &none      &none      &none      &kp QUESTION  &kp RSHFT
-    &none      &none      &none      &none      &none                                                         &none      &none      &none      &none         &none
-                                                           &none      &none            &kp F14     &kp F15
-                                                                      &none            &none 
-                                                &none      &none                                   &none      &none
-                                                                      &none            &none
-                        >;      
-                };
-
-        };
-};
+ #define HYP LS(LC(LA(LGUI)))
+ #define HYPER(key) LS(LC(LA(LG(key))))
+ 
+ / {
+ 	keymap {
+ 		compatible = "zmk,keymap";
+ 		layer_0 {
+ 			bindings = <
+ 				&bootloader
+ 				&gresc     &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6    &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp MINUS &kp EQUAL &kp BACKSPACE
+ 				&kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T     &kp HOME     &kp PG_UP &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
+ 				&kp CAPS   &kp A     &kp S     &kp D     &kp F     &kp G                            &kp H     &kp J     &kp K     &kp L     &kp SCLN  &kp ENTER
+ 				&kp LSHIFT &kp Z     &kp X     &kp C     &kp V     &kp B     &kp END      &kp PG_DN &kp N     &kp M     &kp CMMA  &kp DOT   &kp SLASH &kp RSHFT
+ 				&mo 1      &mo 2     &kp LCTL  &kp LALT  &kp LGUI                                             &kp RGUI  &kp RALT  &kp SQT   &kp LBKT  &kp RBKT
+ 				                                                   &kp C_PP  &kp C_MUTE   &kp LEFT  &kp RIGHT
+ 				                                         &kp SPC   &kp INS   &kp C_BRI_UP &kp UP    &kp RCTRL &kp SPC
+ 				                                                             &kp C_BRI_DN &kp DOWN
+ 			>;
+ 		};
+ 		layer_1 {
+ 			bindings = <
+ 				&bootloader
+ 				&kp ESC  &kp F1 &kp F2   &kp F3   &kp F4   &kp F5     &kp F6       &kp F7     &kp F8     &kp F9   &kp F10  &kp F11  &kp F12  &kp DEL
+ 				&kp TAB  &none  &none    &none    &none    &none      &kp C_PP     &none      &none      &none    &none    &none    &none    &none
+ 				&kp CAPS &none  &none    &none    &none    &none                              &none      &none    &none    &none    &none    &none
+ 				&none    &none  &none    &none    &none    &none      &kp C_MUTE   &none      &kp TILDE  &none    &none    &none    &kp UP   &none
+ 				&mo 1    &mo 2  &kp LCTL &kp LALT &kp LGUI                                               &kp RGUI &kp RALT &kp LEFT &kp DOWN &kp RIGHT
+ 				                                           &kp M_VOLD &kp M_VOLU   &kp M_VOLD &kp M_VOLU
+ 				                                  &none    &none      &kp C_BRI_UP &none      &none      &none
+ 				                                                      &kp C_BRI_DN &none
+ 			>;
+ 		};
+ 		layer_2 {
+ 			bindings = <
+ 				&bootloader
+ 				&kp GRAVE &none &none &none &none &none      &none      &none &none &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp KP_DIVIDE   &none
+ 				&none     &none &none &none &none &none      &none      &none &none &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp KP_MULTIPLY &none
+ 				&none     &none &none &none &none &none                       &none &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp MINUS       &none
+ 				&none     &none &none &none &none &none      &none      &none &none &kp NUM_0 &kp DOT   &kp EQUAL &kp PLUS        &none
+ 				&mo 1     &mo 2 &none &none &none                                   &none     &none     &none     &none           &none
+ 				                                  &kp C_PREV &kp C_NEXT &none &none
+ 				                            &none &none      &none      &none &none &none
+ 				                                             &none      &none
+ 			>;
+ 		};
+ 	};
+ 
+ };

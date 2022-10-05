@@ -1,0 +1,1659 @@
+{
+  "Board": "",
+  "Shield": "",
+  "Layers": [
+    {
+      "Name": "layer0",
+      "Notes": "",
+      "Keys": [
+        {
+          "Name": "GRESC",
+          "Behavior": "$custom",
+          "Notes": "",
+          "Args": [
+            "&gresc"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_3"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_4"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_5"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_6"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_7"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_8"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_9"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_0"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "MINUS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "EQUAL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "BACKSPACE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "TAB"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "Q"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "W"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "E"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "R"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "T"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "HOME"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "PG_UP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "Y"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "U"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "I"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "O"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "P"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "BSLH"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "CAPS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "A"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "S"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "D"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "G"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "H"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "J"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "K"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "L"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "SCLN"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "ENTER"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LSHIFT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "Z"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "X"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "V"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "B"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "END"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "PG_DN"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "N"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "M"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "CMMA"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "DOT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "SLASH"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RSHFT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LCTL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LALT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LGUI"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RGUI"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RALT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "SQT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LBKT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RBKT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_PP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_MUTE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LEFT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RIGHT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "SPC"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "INS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_BRI_UP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "UP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RCTRL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "SPC"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_BRI_DN"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "DOWN"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "layer1",
+      "Notes": "",
+      "Keys": [
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "ESC"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F3"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F4"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F5"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F6"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F7"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F8"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F9"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F10"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F11"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "F12"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "DEL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "TAB"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_PP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "CAPS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_MUTE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "TILDE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "UP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LCTL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LALT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LGUI"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RGUI"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RALT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "LEFT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "DOWN"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "RIGHT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "M_VOLD"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "M_VOLU"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "M_VOLD"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "M_VOLU"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_BRI_UP"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_BRI_DN"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        }
+      ]
+    },
+    {
+      "Name": "layer2",
+      "Notes": "",
+      "Keys": [
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "GRAVE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_7"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_8"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_9"
+          ]
+        },
+        {
+          "Name": "/",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "KP_DIVIDE"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_4"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_5"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_6"
+          ]
+        },
+        {
+          "Name": "*",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "KP_MULTIPLY"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_3"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "MINUS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "NUM_0"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "DOT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "EQUAL"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "PLUS"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer1"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&mo",
+          "Notes": "",
+          "Args": [
+            "layer2"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_PREV"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&kp",
+          "Notes": "",
+          "Args": [
+            "C_NEXT"
+          ]
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        },
+        {
+          "Name": "",
+          "Behavior": "&none",
+          "Notes": "",
+          "Args": []
+        }
+      ]
+    }
+  ],
+  "Custom": "#define HYP LS(LC(LA(LGUI)))\n#define HYPER(key) LS(LC(LA(LG(key))))"
+}
